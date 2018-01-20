@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 20, 2018 8:55:40 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="cr.ac.una.prograiv.gamestar.domain.Ordenes" table="ordenes" catalog="gamestar" optimistic-lock="version">
+        <id name="OId" type="java.lang.Integer">
+            <column name="o_id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="usuarios" class="cr.ac.una.prograiv.gamestar.domain.Usuarios" fetch="select">
+            <column name="o_usuario" />
+        </many-to-one>
+        <property name="OFecha" type="date">
+            <column name="o_fecha" length="10" />
+        </property>
+        <set name="detalleses" table="detalles" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="d_IdO" not-null="true" />
+            </key>
+            <one-to-many class="cr.ac.una.prograiv.gamestar.domain.Detalles" />
+        </set>
+    </class>
+</hibernate-mapping>
