@@ -82,19 +82,21 @@
     </form>
     <form class="navbar-form navbar-right">
         <% if (sesion.getAttribute("usuario") != null) {%> 
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="userSettings.jsp"><%=sesion.getAttribute("nombre")%></a></li>
-                <%if (sesion.getAttribute("tipo") == "Cliente") {    %>
-            <li><button type='button' class='btn btn-info' id="btnCar"><span class='glyphicon glyphicon-shopping-cart'></span></button></li>
-                    <% } %>
-        </ul>
-        <% }%>
-    </form>
-    <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+            <b><a href="userSettings.jsp" style="color: #fff; text-transform: uppercase"><%=sesion.getAttribute("nombre")%></a></b>
+        </div>
+        <%if (sesion.getAttribute("tipo") == "Cliente") {    %>
+
+        <button type='button' class='btn btn-info' id="btnCar"><span class='left glyphicon glyphicon-shopping-cart'></span></button>
+            <% } %>
+            <% }%>
         <div class="form-group">
             <input type="search" class="form-control" id="buscador" placeholder="Buscar por nombre">
         </div>
         <button type="button" class="btn btn-info" id="buscadorBoton"><span class="glyphicon glyphicon-search"></span></button>
         <div class="form-group" id="nombreUsuario"></div>
+    </form>
+    <form class="navbar-form navbar-right" role="search">
+
     </form>
 </nav>

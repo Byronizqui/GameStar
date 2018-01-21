@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Carrito</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/font-awesome-4.5.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -49,8 +50,8 @@
         </div>
     </div>
 
-    <div class="container2" id="carro">
-        <table id="cart" class="table table-hover table-condensed">
+    <div class="container2 table-responsive" id="carro" style="overflow-x:auto;">
+        <table id="cart" class="table table-striped">
             <!--
             <tfoot>
                 <tr class="visible-xs">

@@ -544,8 +544,8 @@ $(function () {
             });
             $('#basicSuccessCustomDelay').click(function () {
                 Lobibox.notify('success', {
-                    title: 'Proceso Exitoso',
-                    delay: 5000,
+                    title: '',
+                    size: 'mini',
                     msg: 'Se ha añadido al carrito exitosamente!!'
                 });
             });
@@ -584,7 +584,8 @@ $(function () {
             $('#basicSuccessNoDelay').click(function () {
                 Lobibox.notify('success', {
                     delay: false,
-                    title: 'Proceso Exitoso',
+                    title: '',
+                    size: 'mini',
                     msg: 'Se ha añadido al carrito exitosamente!!'
                 });
             });
