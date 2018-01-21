@@ -40,7 +40,7 @@
         </div>
         
         <nav class="navbar navbar-default"> 
-         <a class="pull-left"> <img src="https://i.imgur.com/zV1dPfm.png?1" alt="logo"> </a>
+         <a class="pull-left" href="index.jsp"> <img src="https://i.imgur.com/zV1dPfm.png?1" alt="logo"> </a>
         </nav>
             
         <div class="container">

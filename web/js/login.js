@@ -13,6 +13,7 @@ $(function () {
     $("#cancelar").click(function () {
         limpiarForm();
         $("#myModalFormulario").modal("hide");
+        location.href='index.jsp';
     });
     
     
