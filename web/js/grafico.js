@@ -297,7 +297,7 @@ function crearGraficoDos(ven, alq){
                 {
                     "category": [
                         {
-                            "label": "Año 2016"
+                            "label": "Año 2018"
                         }
                         
                     ]

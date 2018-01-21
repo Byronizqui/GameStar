@@ -1,6 +1,6 @@
 <%-- 
     Document   : usuariosAdmin
-    Created on : 08-may-2016, 0:34:55
+    Created on : 08-may-2018, 0:34:55
     Author     : Mery Zúñiga
 --%>
 
@@ -167,15 +167,14 @@
                         <h4 class="footertext">Objetivo</h4>
                         <p class="footertext">El objetivo de nuestro proyecto es simular un comercio dedicado al alquiler/venta de videojuegos.<br>
                     </div>
-                    <div class="col-md-4 pull-left">
+                    <div class="col-md-4">
                         <i class="fa fa-code bigicon fa-5x"></i>
                         <h4 class="footertext">Programadores</h4>
-                        <p class="footertext"><i class="fa fa-male bigicon fa-2x"></i> Bayron Picado.<br>
                         <p class="footertext"><i class="fa fa-male bigicon fa-2x"></i> Allan Arce.<br>
                         <p class="footertext"><i class="fa fa-male bigicon fa-2x"></i> Johan Carballo.<br>
                         <p class="footertext"><i class="fa fa-male bigicon fa-2x"></i> David Lobo.<br>
+                        <p class="footertext"><i class="fa fa-male bigicon fa-2x"></i> Bayron Picado.<br>
                         <p class="footertext"><i class="fa fa-male bigicon fa-2x"></i> Sergio Vargas.<br>
-
                     </div>
                 </div>
                 <div class="row">
