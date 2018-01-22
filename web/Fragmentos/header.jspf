@@ -21,7 +21,7 @@
 
 %>
 
-<nav class="navbar navbar-default">  
+<nav class="navbar navbar-default navbar-fixed-top">  
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navegacion">
             <span class="sr-only">Desplegar navegación</span>
