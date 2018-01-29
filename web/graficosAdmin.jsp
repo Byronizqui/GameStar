@@ -36,6 +36,7 @@
 <link rel="stylesheet" type="text/css" href="css/font-awesome-4.5.0/css/font-awesome.min.css" />    </head>
 <body>
     <%@ include file="Fragmentos/header.jspf" %>
+    <div class="body">
     <button id="popupWindowBasic" class="btn btn-primary hidden">Window</button>
     <div class="container text-justify">
         <button type="button" data-toggle='modal' data-target='.mes' class=" btn-info glyphicon glyphicon-credit-card btn-lg" id="user"><br>Ordenes realizadas por mes</button>
@@ -83,6 +84,7 @@
                 <button type="button"  class="btn btn-danger modal-title" id="atras">Atrás</button>
             </div>
         </div>
+    </div>
     </div>
     <footer>
         <div id="footer" class="container well">

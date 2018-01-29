@@ -31,7 +31,7 @@
 <body>
     <button id="popupWindowBasic" class="btn btn-primary hidden">Window</button>
     <%@ include file="Fragmentos/header.jspf" %>
-
+<div class="body">
     <button id="basicInfo" class="btn btn-info hidden">Info</button>
     <button id="basicWarningAnimation" class="btn btn-warning hidden">Warning</button>
     <button id="basicError" class="btn btn-danger hidden">Error</button>
@@ -157,6 +157,7 @@
         </center>
         <table border="2" class="table table-hover table-condensed data-table ui" id="tablaCatalogos"></table>
     </div>
+</div>
     <footer>
         <div id="footer" class="container well">
             <div>

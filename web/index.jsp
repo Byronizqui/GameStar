@@ -35,10 +35,9 @@
 </head>
 <body>
     <%@ include file="Fragmentos/header.jspf" %>
+    <div class="body">
     <div  id="ajSlider">
     </div>
-
-
 
     <button id="basicInfo" class="btn btn-info hidden">Info</button>
     <button id="basicWarning" class="btn btn-warning hidden">Warning</button>
@@ -78,6 +77,7 @@
                 </div>      
             </div>
         </div>
+    </div>
     </div>
     <script src="js/header.js"/></script>
 

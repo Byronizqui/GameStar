@@ -1,5 +1,9 @@
 html { font-size: 100% !important; }
 
+.body{
+    padding-top: 70px;
+}
+
 a {
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;

@@ -26,7 +26,7 @@
 
     <%@ include file="Fragmentos/header.jspf" %>
 
-
+<div class="body">
     <button id="popupWindowBasic" class="btn btn-primary hidden">Window</button>
     <div class="modal fade" id="myModalVerificarEliminar" role="dialog">
         <div class="modal-dialog modal-lg">
@@ -67,6 +67,7 @@
             -->
         </table>
     </div>
+</div>
     <footer>
         <div id="footer" class="container well">
             <div>

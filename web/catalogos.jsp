@@ -33,6 +33,7 @@
         out.println("<input id=" + "idPar" + " type=" + "hidden" + " name=" + "id" + " value=" + request.getParameter("id") + "/>");
 
     %>
+    <div class="body">
     <button id="basicError" class="btn btn-danger hidden">Error</button>
     <button id="basicSuccessCustomDelay" class="btn btn-success hidden">Success</button>
     <div class="no-padding" id="portfolio">
@@ -41,6 +42,7 @@
 
             </div>
         </div>
+    </div>
     </div>
     <footer>
         <div id="footer" class="container well">

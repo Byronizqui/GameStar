@@ -23,9 +23,11 @@
     </head>
     <body>
         <%@ include file="Fragmentos/header.jspf" %>
+        <div class="body">
         <button type="button" id="categoria" class="btn btn-primary btn-block">Administrar categorías</button>
         <button type="button" id="catalogos" class="btn btn-primary btn-block">Administrar catálogos</button>
         <button type="button" id="usuarios" class="btn btn-primary btn-block">Administrar usuarios</button>
+        </div>
         <script src="js/header.js"/></script>
         <script src="js/session.js"/></script>
     </body>

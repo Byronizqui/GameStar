@@ -25,6 +25,7 @@
 </head>
 <body>
     <%@ include file="Fragmentos/header.jspf" %>
+    <div class="body">
     <button id="popupWindowBasic" class="btn btn-primary hidden">Window</button>
     <div class="modal fade" id="myModal1" role="dialog">
         <div class="modal-dialog modal-sm">
@@ -99,6 +100,7 @@
         <div>
         </div>
         <table border="2" class="table table-hover table-condensed data-table ui" id="tablaCategorias"></table>
+    </div>
     </div>
     <footer>
         <div id="footer" class="container well">

@@ -32,6 +32,7 @@
 </head>
 <body>
     <%@ include file="Fragmentos/header.jspf" %>
+    <div class="body">
     <h3>Resultados de búsqueda: </h3></br>
     <%
         out.println("<input id=" + "name" + " type=" + "hidden" + " name=" + "nombre" + " value=" + request.getParameter("name") + ">");
@@ -80,6 +81,7 @@
     </div>
 </footer>
 <button id="popupWindowBasic" class="btn btn-primary hidden">Window</button>
+</div>
 <script src="js/demo.js"/></script>
 </body>
 

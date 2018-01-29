@@ -1,5 +1,8 @@
 /* Custom Elastislide Styling */
 
+.body{
+    padding-top: 70px;
+}
 .demo-1 .elastislide-horizontal {
 	padding: 10px 37px;
 	border-radius: 10px/90px;
